@@ -1,0 +1,85 @@
+<section id="newsletter" class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-left">
+          <p class="title">Ting Newsletter</p>
+          <p class="subtitle">最新优惠信息</p>
+        </div>
+
+        <div class="column">
+          <form action="https://mail.jgthms.com/subscribe" method="POST" accept-charset="utf-8">
+              <div class="field is-grouped">
+                <div class="control has-icons-left is-expanded">
+                  <input type="email" value="" name="email" class="input is-medium is-flat required email" placeholder="email address" required="">
+                  <span class="icon is-small is-left">
+                    <i class="fa fa-envelope"></i>
+                  </span>
+                </div>
+                <div class="control">
+                  <div class="is-hidden">
+                    <input type="text" name="hp" id="hp">
+                  </div>
+                  <input type="hidden" name="list" value="So5UY3O9gHJkq892bn763Tyf4A">
+                  <input type="submit" value="订阅邮件" name="submit" id="mc-embedded-subscribe" class="button is-medium is-white is-outlined">
+                </div>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-4">
+        <div id="about" class="content">
+          <strong xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Bulma</strong> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jgthms.com" property="cc:attributionName" rel="cc:attributionURL">Jeremy Thomas</a>.
+
+          <p id="alternative">
+            <a href="https://bulma.io/alternative-to-bootstrap/">An alternative to <strong>Bootstrap</strong></a>
+          </p>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div id="share" class="content">
+          <div>
+            <strong>Support</strong> and share the love!
+          </div>
+          <div id="social">
+          
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div id="sister">
+          <p>
+            More <strong>helpful</strong> tools:
+          </p>
+          <ul>
+            <li>
+              <a href="http://cssreference.io">
+                <img src="https://bulma.io/images/css-reference-logo.png" alt="CSS Reference logo" width="200px">
+              </a>
+            </li>
+            <li>
+              <a href="http://htmlreference.io">
+                <img src="https://bulma.io/images/html-reference-logo.png" alt="HTML Reference logo"  width="200px">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="content has-text-centered">
+      <p>
+        <strong><%= gettext "Site Title" %></strong> by <a href="https://jgthms.com"><%= gettext "Site Author" %></a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><%= gettext "Site Record Code" %></a>.
+      </p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,227 @@
+<section class="hero is-fullheight has-carousel">
+  <div class="hero-carousel carousel-animated carousel-animate-fade">
+    <div class='carousel-container'>
+      <div class='carousel-item has-background is-active'>
+        <img class="is-background" src="/images/slide-image-1.jpg" alt="" />
+      </div>
+      <div class='carousel-item has-background'>
+        <img class="is-background" src="/images/slide-image-2.jpg" alt="" />
+      </div>
+      <div class='carousel-item has-background'>
+        <img class="is-background" src="/images/slide-image-3.jpg" alt="" />
+      </div>
+    </div>
+    <div class="carousel-navigation is-overlay">
+      <div class="carousel-nav-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </div>
+      <div class="carousel-nav-right">
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+  <div class="hero-head">
+    <%= render TingWeb.LayoutView, "header.html", assigns %>
+  </div>
+  <div class="hero-body has-text-centered">
+    <div class="container">
+      <h1 class="title">Ting Diamond</h1>
+      <a class="button is-primary is-outlined ">
+        <i class="fa fa-diamond" aria-hidden="true"></i> &nbsp;
+        GIA 钻石定制
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<div class="box cta">
+  <p class="has-text-centered">
+    <span class="tag is-primary">News</span> 为答谢新老客户，Ting Diamond 5月1日 至 5月31日 全场 9.5折起！
+  </p>
+</div>
+
+
+<section class="section is-medium">
+  <div class="container has-text-centered">
+    <h1 class="title is-3">求婚戒指</h1>
+    <h2 class="subtitle is-5">
+      求婚戒指是
+    </h2>
+    <div class='carousel is-4 carousel-animated carousel-animate-slide'>
+      <div class='carousel-container'>
+        <div class='carousel-item is-active'>
+          <figure class="image is-1by1"><img src="/images/1_grande.jpg"></figure>
+        </div>
+        <div class='carousel-item'>
+          <figure class="image is-1by1"><img src="/images/2_grande.jpg"></figure>
+        </div>
+        <div class='carousel-item'>
+          <figure class="image is-1by1"><img src="/images/1_grande.jpg"></figure>
+        </div>
+        <div class='carousel-item'>
+          <figure class="image is-1by1"><img src="/images/2_grande.jpg"></figure>
+        </div>
+        <div class='carousel-item'>
+          <figure class="image is-1by1"><img src="/images/1_grande.jpg"></figure>
+        </div>
+        <div class='carousel-item'>
+          <figure class="image is-1by1"><img src="/images/2_grande.jpg"></figure>
+        </div>
+      </div>
+      <div class="carousel-navigation is-centered">
+        <div class="carousel-nav-left">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="carousel-nav-right">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-medium has-background-white-bis">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="content">
+          <h1>GIA官方教你如何选择钻石</h1>
+          <h2>认识钻石的4Cs</h2>
+
+          <div class="field is-grouped is-grouped-multiline">
+            <div class="control">
+              <div class="tags has-addons">
+                <span class="tag is-dark">重量</span>
+                <span class="tag is-info">Caratage</span>
+              </div>
+            </div>
+
+            <div class="control">
+              <div class="tags has-addons">
+                <span class="tag is-dark">净度</span>
+                <span class="tag is-success">Clarity</span>
+              </div>
+            </div>
+
+            <div class="control">
+              <div class="tags has-addons">
+                <span class="tag is-dark">颜色</span>
+                <span class="tag is-primary">Color</span>
+              </div>
+            </div>
+
+            <div class="control">
+              <div class="tags has-addons">
+                <span class="tag is-dark">切工</span>
+                <span class="tag is-warning">Cut</span>
+              </div>
+            </div>
+          </div>  
+
+          <nav class="intro-buttons">
+            <a class="button is-primary is-medium" href="https://github.com/jgthms/bulma/releases/download/0.7.0/bulma-0.7.0.zip">
+              <span>
+                <strong>GIA证书</strong>
+                <small>v0.7.0</small>
+              </span>
+            </a>
+            <a class="button is-info is-medium" href="/documentation">
+              <span>
+                <span>钻石知识</span>
+                <strong>docs</strong>
+              </span>
+            </a>
+          </nav>
+        </div>
+      </div>
+      <div class="column">
+        <div class="video">
+          <video
+            id="my-player"
+            class="video-js"
+            width=600
+            height=320
+            controls
+            preload="auto"
+            poster="//vjs.zencdn.net/v/oceans.png"
+            data-setup='{}'>
+          <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="http://videojs.com/html5-video-support/" target="_blank">
+              supports HTML5 video
+            </a>
+          </p>
+        </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section is-medium">
+  <div class="container has-text-centered">
+    <h1 class="title is-3">客人寄语</h1>
+
+   <div class="columns features">
+      <div class="column is-4">
+        <div class="card is-shady">
+          <div class="card-image has-text-centered">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Tristique senectus et netus et. </h4>
+              <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. </p>
+              <p><a href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card is-shady">
+          <div class="card-image has-text-centered">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Tempor orci dapibus ultrices in.</h4>
+              <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. </p>
+              <p><a href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card is-shady">
+          <div class="card-image has-text-centered">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4> Leo integer malesuada nunc vel risus.  </h4>
+              <p>Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla pellentesque dignissim enim. </p>
+              <p><a href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<%= render TingWeb.LayoutView, "footer.html", assigns %>
+
+
+
+
